@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Dashboard</h1>
+        <div id="timetable-section">
+            <h2>Timetable</h2>
+            <button id="add-timetable-btn" class="btn">Add Timetable</button>
+            <div id="timetable-list"></div>
+        </div>
+        <div id="attendance-section">
+            <h2>Mark Attendance</h2>
+            <input type="date" id="attendance-date" required>
+            <button id="load-timetable" class="btn">Load Timetable</button>
+            <div id="daily-timetable"></div>
+        </div>
+        <button id="logout" class="btn">Logout</button>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
